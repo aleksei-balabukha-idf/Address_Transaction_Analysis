@@ -1,4 +1,5 @@
 # 📊 Ethereum (ETH) Transaction Analysis  
+### (Please, look though *_ETH_address_analytics.ipynb* for details)
 
 This repository demonstrates **data analysis techniques** to extract insights from Ethereum blockchain transactions. By analyzing transaction history, smart contract interactions, and wallet activity, this project reveals financial strategies, investment patterns, and behavioral trends.  
 
