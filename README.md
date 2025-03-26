@@ -1,30 +1,56 @@
-# 📊 Ethereum (ETH) Transaction Analysis  
+# 🧮 Ethereum Address Transaction Analysis 
 ### (Please, look though *_ETH_address_analytics.ipynb* for details)
 
-This repository demonstrates **data analysis techniques** to extract insights from Ethereum blockchain transactions. By analyzing transaction history, smart contract interactions, and wallet activity, this project reveals financial strategies, investment patterns, and behavioral trends.  
+*From raw blockchain data to interactive dashboards—uncovering trading strategies, fund flows, and behavioral patterns.*  
+
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
 
 ## 🔍 Project Overview  
-- **Goal**: Analyze an ETH address's transaction history to infer trading strategies, DeFi usage, and profitability.  
-- **Methods**:  
-  - Time-series analysis of transactions (frequency, volume, gas fees).  
-  - Smart contract interaction tracking (e.g., Uniswap, Aave, NFT marketplaces).  
-  - Profit/loss estimation using historical price data.  
-- **Output**: Visual dashboards, statistical summaries, and actionable insights.  
+This project analyzes Ethereum transactions from a given address to:  
+✅ **Track financial behavior** (accumulation, spending, DeFi interactions).  
+✅ **Visualize transaction history** (timeline, gas fees, ETH flow).  
+✅ **Identify smart contract engagements** (e.g., DEX trades, NFT transactions).  
+✅ **Build interactive dashboards** (Tableau) for stakeholder-friendly insights.  
 
-## 🛠️ Technologies Used  
-- **Languages**: Python (Pandas, Web3.py)  
-- **Data Sources**: Etherscan API, Alchemy/Infura, CoinGecko (for pricing)  
-- **Visualization**: **Tableau**, Matplotlib, Seaborn, Plotly 
-- **Tools**: Jupyter Notebook, Git, Tableau  
+**Target Users**: Crypto investors, analysts, and recruiters assessing blockchain data skills.  
 
-## 📈 Key Features  
-1. **Transaction Pattern Detection**  
-   - Identify accumulation/dumping phases.  
-   - Detect high-frequency trading or wash trading.  
-2. **DeFi & NFT Analytics**  
-   - Track liquidity pool deposits/withdrawals.  
-   - Analyze NFT minting/flipping behavior.  
-3. **Financial Metrics**  
-   - ROI calculation (realized/unrealized gains).  
-   - Gas fee optimization analysis.  
+---
 
+## 📌 Key Features  
+### 1. **Data Pipeline**  
+- Fetches transactions via **Etherscan API**.  
+- Cleans/transforms raw JSON using **Pandas**.  
+- Exports processed data to Tableau for visualization.  
+
+### 2. **Transaction Analysis**  
+- **Time-based trends**: Daily/monthly transaction volume.  
+- **Gas fee optimization**: Identified overpaid transactions.  
+- **Smart contract profiling**: DeFi protocols (Uniswap, Aave) and NFT platforms.  
+
+### 3. **Tableau Dashboard**  
+- **Interactive filters**: Explore transactions by date, type, or gas cost.  
+- **Key metrics**: ETH balance over time, top counterparties, gas fee distribution.  
+- **Visual storytelling**: Geared toward non-technical stakeholders.  
+*(🔗 [View Dashboard](https://public.tableau.com/your-dashboard-link))*  
+
+### 4. **Python Visualizations**  
+- Matplotlib/Seaborn charts for deep dives:  
+  - Transaction timelines.  
+  - Network congestion impact on gas prices.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Languages**: Python (Pandas, Requests)  
+- **Visualization**: Tableau, Matplotlib/Seaborn  
+- **Tools**: Jupyter Notebook, Tableau Public  
+
+---
+
+## 📂 How to Use  
+1. **Clone the repo**:  
+   ```bash
+   git clone https://github.com/aleksei-balabukha-idf/Address_Transaction_Analysis.git
