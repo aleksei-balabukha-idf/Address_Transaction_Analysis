@@ -34,7 +34,6 @@ This project analyzes Ethereum transactions from a given address to:
 - **Interactive filters**: Explore transactions by date, type, or gas cost.  
 - **Key metrics**: ETH balance over time, top counterparties, gas fee distribution.  
 - **Visual storytelling**: Geared toward non-technical stakeholders.  
-*(🔗 [View Dashboard](https://public.tableau.com/your-dashboard-link))*  
 
 ### 4. **Python Visualizations**  
 - Matplotlib/Seaborn charts for deep dives:  
